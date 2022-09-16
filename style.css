@@ -1,0 +1,44 @@
+.page {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.header {
+    background-color: greenyellow;
+    padding: 16px;
+}
+
+.navigation {
+
+    background-color: whitesmoke;
+    padding: 16px;
+    width: 250px;
+    flex: 0 0;
+}
+
+.article {
+    background-color: white;
+    flex-grow: 1;
+    padding: 16px;
+}
+
+.side-panel {
+    background-color: whitesmoke;
+    padding: 16px;
+    width: 200px;
+    flex: 0 0;
+}
+
+.footer {
+    background-color: greenyellow;
+    padding: 16px;
+}
